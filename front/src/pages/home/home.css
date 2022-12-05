@@ -1,0 +1,53 @@
+button:active {
+  transform: scale(0.95);
+}
+
+.home_container {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: black;
+}
+.event_container {
+  background-color: blue;
+}
+
+.first_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: black;
+}
+
+.first_block h1 {
+  color: white;
+  font-size: 70px;
+}
+.first_block p {
+  color: gray;
+  font-size: 25px;
+}
+
+.main_btn {
+  color: white;
+  background-color: blue;
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.first_block img {
+  border-radius: 20px;
+  width: 80%;
+  height: 300px;
+  position: relative;
+  bottom: -20%;
+}

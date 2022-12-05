@@ -1,0 +1,83 @@
+button:active {
+  transform: scale(0.95);
+}
+
+.market-container {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  background-color: lightgray;
+}
+.speech {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.bobble {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.video {
+  margin-bottom: 20px;
+  border-radius: 40px;
+}
+
+.market-container h3 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.membership_main_block {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding: 40px 0;
+  margin: auto;
+  background-color: white;
+}
+
+.membership_main_block h1 {
+  color: black;
+  font-size: 70px;
+}
+.membership_main_block p {
+  color: gray;
+  font-size: 25px;
+}
+
+.attend_btn {
+  color: white;
+  background-color: blue;
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.event_container {
+  background-color: blue;
+}

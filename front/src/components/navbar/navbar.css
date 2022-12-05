@@ -1,0 +1,115 @@
+button:active {
+  transform: scale(0.95);
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 6rem;
+  border-bottom: 1px solid rgba(165, 165, 165, 0.1);
+}
+
+.navbar-links_logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.navbar-links_logo img {
+  width: 400px;
+  height: 120px;
+}
+
+.navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-sign p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.navbar-sign .primary-btn {
+  background: var(--primary-btn);
+  border-radius: 10px;
+}
+.navbar-sign .secondary-btn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  margin: 0 1rem;
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.navbar-sign button {
+  color: black;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border: none;
+  font-size: 20px;
+}
+
+.layout-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-layout .primary-btn {
+  background: var(--primary-btn);
+  border-radius: 10px;
+}
+.navbar-layout .secondary-btn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  margin: 0 1rem;
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.navbar-layout button {
+  color: black;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  border: none;
+  font-size: 16px;
+}
+
+.navbar-layout button:hover {
+  transform: scale(0.95);
+}
+
+.navbar-layout button:focus {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar {
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .navbar {
+    padding: 2rem;
+  }
+  .navbar-sign {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .layout-container {
+    width: 100%;
+  }
+}
